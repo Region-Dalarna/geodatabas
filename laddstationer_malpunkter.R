@@ -13,8 +13,8 @@ p_load(keyring,
        httr,
        jsonlite)
 
-
-# setwd("G:/skript/gis/geodatabasen/schemalaggning")
+# getwd()
+setwd("G:/skript/gis/geodatabasen/github_geodata")
 
 
 source("https://raw.githubusercontent.com/Region-Dalarna/funktioner/main/func_GIS.R", encoding = "utf-8", echo = FALSE)

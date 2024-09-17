@@ -36,7 +36,7 @@ taskscheduler_create(
 # }
 # 
 # # Testar att köra ett skript via source för att se om det körs korrekt manuellt.
-# source("G:/skript/gis/geodatabasen/schemalaggning/laddstationer_malpunkter.R")
+source("G:/skript/gis/geodatabasen/github_geodata/laddstationer_malpunkter.R")
 # 
 # # Kör den schemalagda uppgiften direkt (utan att vänta på dess schemalagda tid).
 # taskscheduler_runnow("Update_Laddstationer_Weekly")
